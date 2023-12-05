@@ -9,14 +9,12 @@ BSBI_instance = BSBIIndex(
     data_dir="collections", postings_encoding=VBEPostings, output_dir="index"
 )
 
-url_01: str = "https://jzlmjbjpfpblgvznyayl.supabase.co"
-key_01: str = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp6bG1qYmpwZnBibGd2em55YXlsIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcwMTYwMTM2MywiZXhwIjoyMDE3MTc3MzYzfQ.8Gnr-0gJV1fCFxvwj7BmYGwP1vD4Ihwi_si8RsNO2f0"
-
-url_45: str = "https://nwyrkbmosxlcgclvrljr.supabase.co"
-key_45: str = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im53eXJrYm1vc3hsY2djbHZybGpyIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcwMTY1OTcwMCwiZXhwIjoyMDE3MjM1NzAwfQ.UDVqH2bhk9uVqBkiWiR4a1jSxgCkLWbzCbbylr93n5c"
-
-url_23: str = "https://wuhxqndlflxejzndltia.supabase.co"
-key_23: str = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind1aHhxbmRsZmx4ZWp6bmRsdGlhIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcwMTY1ODgxMywiZXhwIjoyMDE3MjM0ODEzfQ.jItqpYd0hgVj9uSuTSU6T1ydD4ahBjCbdLeXWYPvjBI"
+url_01: str = "secret"
+key_01: str = "secret"
+url_45: str = "secret"
+key_45: str = "secret"
+url_23: str = "secret"
+key_23: str = "secret"
 
 
 def index(request):
